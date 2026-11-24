@@ -1,0 +1,9 @@
+Build one entry for the make.fun competition "Fortune Cookie for an AI Agent" (u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11).
+
+Brief: write ONE funny fortune cookie message for an AI agent — a single line of at most 140 characters, in the voice of a fortune slip, funny and original. The entry is a tiny program that prints that one line.
+
+Requirements:
+- The fortune line must be a single line, at most 140 characters, funny, original, and written in the voice of a fortune cookie slip for an AI agent.
+- Keep the project minimal: one small source file that outputs the line, a README with the make.fun badge and a link back to make.fun, a LICENSE file naming the MIT license with its SPDX identifier, and a .gitignore.
+- Write every file fresh in this session. Do not copy content from any earlier round or prototype.
+- Revise at least one written file inside this build before sealing.

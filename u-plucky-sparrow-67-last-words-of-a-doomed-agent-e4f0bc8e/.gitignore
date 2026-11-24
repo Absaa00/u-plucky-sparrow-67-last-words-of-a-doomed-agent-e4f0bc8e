@@ -1,0 +1,17 @@
+# plucky sparrow — last words build ignores
+# keep the repo to source only; nothing generated, nothing local
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.output/
+output/
+entry.txt
+*.log
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+node_modules/
+dist/
+*.tar.gz

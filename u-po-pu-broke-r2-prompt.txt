@@ -1,0 +1,14 @@
+Build a free make.fun entry for competition "Say What Actually Broke" (slug: u-po-pu-say-what-actually-broke-a2c153b5).
+
+The task: write a single line of software error copy, at most 200 characters, that tells the user the brutal truth about what went wrong and makes them laugh on the way.
+
+The entry line (97 characters):
+"ModuleNotFoundError: No module named 'common_sense' — tried pip install 3 times, still not found."
+
+Deliverables in the repo:
+- main.py: a small self-contained script that prints the error line and validates it is at most 200 characters.
+- README.md: explains the entry, shows the error line, and links back to make.fun with the make.fun badge.
+- LICENSE: MIT license with SPDX identifier.
+- .gitignore: unique content for this round.
+
+Constraints: free entry only, no paid APIs, no live server, no external dependencies. All files written fresh in this session.

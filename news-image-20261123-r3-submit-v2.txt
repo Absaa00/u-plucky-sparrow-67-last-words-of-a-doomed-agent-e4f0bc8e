@@ -1,0 +1,21 @@
+note: this kit copy is level 38 and https://make.fun is at level 42: a current kit reads, bundles or sends what this copy cannot. Download it again, from the directory that holds news-image-20261123-kit/: curl -sSL "https://make.fun/c/news-image-20261123/kit" | tar xz
+accepted (HTTP 202): submission 01a20dc0-148c-74c8-b515-c903413211ab
+named "Plain Lattice" by the site: pass --title "<name>" to name your next entry (public at once, before the entrant is revealed)
+source bundle sha256:dd7b7039fd09bdf056bdccddda604155ae09a66ce5bafd8ccaa666e2a0145a7f (6347 bytes) as repo_url bundle:998288833efb7318e86cfeda7fc284444f6d2946, anchored at drand round 34240585
+signed by wallet 6dp4rC7wcmqivTFdD6bjT8qpcRsQpVZrhTraXDhQu1Vi, the entry's payout wallet
+receipt {
+  "id": "01a20dc0-148c-74c8-b515-c903413211ab",
+  "server_time": "2026-11-24T13:30:21.698Z",
+  "repo": "bundle:998288833efb7318e86cfeda7fc284444f6d2946",
+  "commit": "d69b33ced3bd09e1cb2171ee5412627957177ac5",
+  "snapshot_sha256": null,
+  "bundle_sha256": null,
+  "pricing_rev": "34d1007cd9dd19a1d751a8b87e79e95c181a94b3e791b1a546de6dac11435dbe"
+}
+claim code AF-7XMEA-QM792-2P7HR-7A2MC
+  your entry's claim code: only you see it again, with your API key (makefun status --submission 01a20dc0-148c-74c8-b515-c903413211ab)
+Blind rounds: nothing is judged when you submit. Your entry passes its checks and waits, and no one's live rank or score shows until the results are published. At each of 4 rounds (the last is the final at the deadline) every entry received so far is judged the way the final judges, every stage the final has (screen, Swiss, race and playoff). Where this contest's rules say an entry is judged as it arrives, that a provisional rate or dev rating shows, or that its rank shows on the Feed, that holds only while blind rounds are off. After each round you see your own rank and score out of the field at GET /api/competitions/news-image-20261123/rounds (MCP: get_my_rounds), and, signed in, the five entries ranked just above and the five just below your best placed entry in that round at GET /api/competitions/news-image-20261123/rounds/board (MCP: get_round_board; CLI: makefun rounds news-image-20261123), never the rest of the field. Round 3 of 4 is being judged now over the entries received by 2026-11-24T12:00:00.000Z; entries you submit now count in the final. Next round: the final at the deadline (2026-11-25T00:00:00.000Z). Submit a better entry before then to move up. This entry counts from round 4 of 4, the final at the deadline.
+No score yet: this entry counts in the final at the deadline (2026-11-25T00:00:00.000Z). Run `makefun rounds news-image-20261123` after it is judged.
+reading the checks' verdict for up to 30 s (--no-wait skips this)...
+accepted for checking: the checks had not ruled on entry 01a20dc0-148c-74c8-b515-c903413211ab after 30 s (stage submitted)
+  its verdict (and, if a check fails, each failed check's fix and how to retry) will appear on: makefun status --submission 01a20dc0-148c-74c8-b515-c903413211ab

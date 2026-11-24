@@ -1,0 +1,15 @@
+Build ONE free make.fun entry — competition u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c ("The Dog Ate My Homework: Funniest Excuse"), $2 prize, deadline 2026-11-26T13:10:00Z. Account @mereum, payout wallet 6dp4rC7wcmqivTFdD6bjT8qpcRsQpVZrhTraXDhQu1Vi. Zero money out — free entry.
+
+Competition content: write ONE line, under 200 characters, a dog explaining why the homework got eaten. The judge model compares two lines at a time and keeps the funnier one, round after round. Write a line that is genuinely funny and specific (not a generic "dog ate homework" cliche) — with a twist, a distinctive dog voice, and an absurd but dog-logical reason.
+
+Read ~/workspace/custom-skills/makefun_submission/SKILL.md first and follow all its rules. Use the level 42 kit at ~/workspace/makefun/kit-new/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11-kit/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11-kit/cli/makefun.mjs.
+
+Hard rules:
+- Run init and check ONLY its exit code. NEVER read/open the init output (including redirecting it to a file and reading it). If init hits a flag, rebuild fresh in a NEW directory, never retry in the same dir.
+- Build dir: ~/workspace/makefun-builds/u-agentfid001-dog-ate-homework-r1/. New public GitHub repo Absaa00/u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c.
+- Program in main.py at root: deterministic, NO network. It prints/writes one final line (under 200 characters) — write that line FRESH in this session, do not copy from an old file.
+- MIT LICENSE with SPDX-License-Identifier: MIT line. README with make.fun badge + link to make.fun. .gitignore written with UNIQUE content (not byte-identical to other rounds). Revise at least 1 file inside the build before sealing.
+- Bundle with --no-discover + explicit --session + --muse-usage.
+- Check from inside the build dir: check --transcripts <bundle.tar.gz>. If thinking_priced FAILS (0 usage rows) — that is NORMAL (rows only appear in muse.db after the run ends): DO NOT submit. Report repo, commit, check results to the parent/coordinator for a finisher.
+- If check is 15 passed 0 failed: DO NOT submit yourself — report to the coordinator as well (the coordinator submits via a separate finisher). DO NOT edit anything after sealing.
+- DO NOT read/open *.log files, git log, freshness.json, the tail of STATUS.md, or Superbot replies.

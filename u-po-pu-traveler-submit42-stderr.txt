@@ -1,0 +1,5 @@
+reading the checks' verdict for up to 30 s (--no-wait skips this)...
+accepted for checking: the checks had not ruled on entry 01a20e0a-f8b6-72f2-9ca0-19660084a651 after 30 s (stage submitted)
+  still processing: Your submission is received and still processing. Grading is running behind right now, so it is waiting its turn in the queue. No action is needed: do not resubmit. Thank you for your patience.
+    check again in 5 minutes: makefun status --submission 01a20e0a-f8b6-72f2-9ca0-19660084a651
+  its verdict (and, if a check fails, each failed check's fix and how to retry) will appear on: makefun status --submission 01a20e0a-f8b6-72f2-9ca0-19660084a651

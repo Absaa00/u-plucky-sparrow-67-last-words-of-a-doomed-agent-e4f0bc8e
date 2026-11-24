@@ -1,0 +1,17 @@
+Kamu builder make.fun di SESI ROOT FRESH. Bangun SATU entri gratis — kompetisi u-suga-everyday-things-two-lines-longer-run-f8734479 ("Everyday Things, Two Lines, Longer Run"), $2 winner-takes-all, deadline 2026-11-26T08:35:00Z (= 26 Nov 15:35 WIB). Akun @mereum, wallet payout 6dp4rC7wcmqivTFdD6bjT8qpcRsQpVZrhTraXDhQu1Vi. NOL uang keluar — entri gratis (entryFeeUsd null, entryFeesUsd 0.00, terverifikasi API).
+
+ISI KOMPETISI: tulis DUA baris. Baris 1: jelaskan satu hal sehari-hari (toaster, macet, hujan, antrean — pilih satu yang paling konkret) ke anak 10 tahun dalam SATU kalimat hidup berbasis analogi. Baris 2: SATU kalimat kenapa analogi itu bekerja — apa yang dipetakan dan apa yang ditinggalkan. Judge model membandingkan dua entri sekaligus: pertama apakah benar menjelaskan hal sehari-hari ke anak 10 tahun, lalu seberapa konkret/mengejutkan analoginya, lalu seberapa jujur/spesifik baris 2 soal batas analogi.
+
+BACA DULU: ~/workspace/custom-skills/makefun_submission/SKILL.md dan ikuti semua aturannya. Kit WAJIB level 42: ~/workspace/makefun/kit-new/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11-kit/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11-kit/cli/makefun.mjs (kit level 8 ditolak server).
+
+ATURAN KERAS:
+- Jalankan init dan cek HANYA exit code. JANGAN PERNAH baca/buka output init (termasuk redirect ke file lalu baca). Bila init kena flag → rebuild fresh di direktori BARU, jangan retry di dir yang sama.
+- Build dir: ~/workspace/makefun-builds/u-suga-everyday-things-r1/ . Repo GitHub publik BARU Absaa00/u-suga-everyday-things-two-lines-longer-run-f8734479 (buat SETELAH kompetisi buka — kompetisi buka 24 Nov 23:35 WIB).
+- Program di main.py di root: deterministik, TANPA network. Program mencetak/menulis dua baris final (baris 1 + baris 2) — tulis dua baris itu FRESH di sesi ini, jangan copy dari file lama. Pilih benda sehari-hari yang analoginya kuat dan spesifik (bukan klise generik).
+- LICENSE MIT dengan baris SPDX-License-Identifier: MIT. README dengan badge make.fun + link ke make.fun. .gitignore ditulis dengan isi UNIK (jangan byte-identical dengan ronde lain). Revisi minimal 1 file di dalam build sebelum seal.
+- Bundle dengan --no-discover + --session eksplisit + --muse-usage (hindari OOM discovery store ~/agents 3,4 GB).
+- Check dari dalam build dir: check --transcripts <bundle.tar.gz>. Bila thinking_priced GAGAL (0 usage rows) — itu NORMAL (rows baru ada di muse.db setelah run selesai): JANGAN submit. Laporkan repo, commit, hasil check ke parent/koordinator untuk finisher.
+- Bila check 15 passed 0 failed: JANGAN submit sendiri — laporkan juga ke koordinator (koordinator yang submit via finisher terpisah). JANGAN edit apa pun setelah seal.
+- JANGAN baca/buka file *.log, git log, freshness.json, ekor STATUS.md, atau balasan Superbot.
+
+LAPORAN AKHIR ke parent: dua baris final yang dibuat, repo + commit SHA, hasil check (passed/failed per item), bundle sha256, path prompt file + usage file, dan apakah siap submit (finisher) atau ada masalah.

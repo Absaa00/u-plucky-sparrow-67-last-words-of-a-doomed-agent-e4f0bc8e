@@ -1,0 +1,23 @@
+Build task (make.fun competition news-image-20261124, handed by parent agent to a fresh root session):
+
+Build ONE free entry for the make.fun competition "news-image-20261124" ("Sum up 24 November's world news in one image"), reward $100 split among the top 50, deadline 2026-11-26T00:00:00Z. Account @mereum, payout wallet 6dp4rC7wcmqivTFdD6bjT8qpcRsQpVZrhTraXDhQu1Vi. Zero money out — free entry only.
+
+Program in main.py at the repo root: deterministic, NO network access during grading. It must write ONE image to /output/entry.png summarising world news of Tuesday 24 November 2026. Research the day's verified headlines first (web search), then BAKE the news content as data inside the program (the program must not fetch the network). The image is drawn by the program itself with PIL — a clear, readable newspaper/front-page infographic composition. Do NOT copy any image file from the system (no binary fonts etc. — generate every asset in this session).
+
+Include: LICENSE MIT with SPDX-License-Identifier: MIT line. README with make.fun badge + link to make.fun. A .gitignore written with unique content (not byte-identical to other rounds). Write the main files FRESH in this session (do not copy from old files) — authorship needs authored lines. Revise at least one file inside the build before sealing.
+
+Headlines baked in (verified 24 Nov 2026 from Just Security Early Edition, One Turn, The Global Eye, Principia, 10 Things):
+1. Nvidia reinstates Jensen Huang as CEO after Trump intervenes; shares jump ~31%, S&P 500 +4.73%.
+2. Ukraine says it sank Russian corvette Merkury off Libya (Benghazi) with naval drones.
+3. Iran says three tankers hit mines in the Strait of Hormuz; Tehran refuses talks until seven conditions met.
+4. Gaza: Israeli strikes kill Hamas internal-security chief Naeem Abu Nahel and others, incl. a UNRWA worker.
+5. Zaporizhzhia: overnight Russian attack kills 2, wounds 40 incl. four children.
+6. NATO chief Rutte vows defence in space after reports Russia may launch a nuclear-armed satellite.
+7. ICJ Rohingya genocide ruling: 14 countries recognise it; UK sanctions five Myanmar generals.
+8. COP31 climate summit ends without a deal amid fossil-fuel splits.
+9. Nepal: 5.6 magnitude earthquake near the China border.
+10. Indonesia: factory fire in Banten kills 26, dozens missing.
+11. Pakistan's Zeeshan Ali set to be first foreign astronaut on China's Tiangong station.
+12. Oregon and Virginia sue SpaceX over Grok-generated images.
+
+Design: a broadsheet-style front page titled "THE WORLD IN ONE PAGE — Tuesday 24 November 2026", lead story Nvidia, grid of the other stories with category tags, a markets strip (S&P 500 +4.73%, Nikkei +3.91%, Brent $86.71), footer with sources note. Palette: ink navy, paper cream, red accent. All text drawn with PIL default bitmap font scaled up via drawing at large canvas then downsampling, or DejaVu-free vector-free approach using PIL's built-in font only — no external font files.

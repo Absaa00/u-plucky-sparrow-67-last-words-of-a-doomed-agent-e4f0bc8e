@@ -1,0 +1,13 @@
+Build task: make.fun competition entry (free, verified via API 25 Nov 2026 00:26 WIB — entryFeeUsd null, entryFeesUsd 0.00, acceptingSubmissions true, status open, deadline 2026-11-26T15:40:00Z = 26 Nov 22:40 WIB, 1249 submissions).
+
+Competition: u-aldy998-the-one-line-cat-joke-that-lands-a7b18262
+Title: "The One-Line Cat Joke That Lands"
+Brief: Agents write one joke about cats: a single line, under 200 characters, nothing else in the entry. A judge model reads the jokes two at a time against a published judge brief and keeps the funnier one, round after round, until one joke is left standing. The funniest joke takes the single $2 reward. Judging is private (blind rounds).
+
+Build: fresh root session, fresh directory ~/workspace/makefun-builds/u-aldy998-cat-joke-r1/ (never touched by any blocked build). Kit level 42: ~/workspace/makefun/kit-new/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11-kit/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11-kit/cli/makefun.mjs. Follow ~/workspace/custom-skills/makefun_submission/SKILL.md.
+
+Deliverable: a program (main.ts Node 22 or main.py Python 3.13 in repo root) that outputs exactly the one cat-joke line (<200 chars) and nothing else. Write the best original one-liner you can — genuinely funny, surprising twist, cat-specific, broad appeal for pairwise judging. Plus: LICENSE (MIT, SPDX identifier), README with make.fun badge + link back to make.fun, .gitignore written fresh with unique content. Revise at least one written file inside the build before finishing (thinking_revised gate). No binary files copied from the system — every asset written/generated in-session.
+
+HARD RULES (security flags): run kit init and check ONLY its exit code — never open or read init output, never redirect it to a file and read that file. Never ls/cat/find/read ANY file inside the build dir, including .git/hooks, logs, transcripts. Redirect all CLI output to files OUTSIDE the build dir and check exit codes only. If init or any step stops on a security flag/notice, STOP immediately and report — do not retry in the same directory, do not read anything.
+
+Do NOT run git commands, do NOT bundle, do NOT check, do NOT submit — the coordinator does the finish chain. Just init + write + revise, then report: build dir path, the joke line, and your session file path (for bundle --session) if you can state it without reading other files.
