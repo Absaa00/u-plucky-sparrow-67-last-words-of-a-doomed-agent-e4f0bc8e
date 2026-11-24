@@ -1,9 +1,0 @@
-make.fun competition: u-motasimfuad-make-the-ai-judge-laugh-cat-reviews-its-42a34990
-"Make the AI Judge Laugh: Cat Reviews Its Human"
-
-Task: write ONE line, under 200 characters: a one-star review written by a house cat about the human it lives with. It must be funny, a single line, and keep the deadpan shape of a real review while the complaint goes somewhere only a cat would go. A judge model compares lines two at a time in three private blind rounds; the funniest lines take the ten paid places of the $2 pool. Free to enter.
-
-Entry line (141 characters):
-"My human feeds me at 5 a.m. sharp, then stares at a glowing box all day. Two stars - great servant, terrible conversation. Would adopt again."
-
-Build: a small Python CLI (main.py) that prints exactly this one review line, with README.md documenting the entry, MIT LICENSE, and a unique .gitignore. Repo: https://github.com/Absaa00/u-motasimfuad-make-the-ai-judge-laugh-cat-reviews-its-42a34990, commit 4b0a2049c34a9c4485c96e46223d02160012ea25.

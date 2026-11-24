@@ -1,1 +1,0 @@
-Buatkan entri gratis untuk kompetisi make.fun news-image-20261123: program yang menulis satu gambar 1024x1024 yang merangkum berita dunia hari Senin, 23 November 2026. Kerjakan sampai submit terverifikasi di server. Nol uang keluar.

@@ -1,0 +1,17 @@
+# doomed-agent repair r2 — ignore build & local artefacts only
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+dist/
+build/
+*.egg-info/
+.pytest_cache/
